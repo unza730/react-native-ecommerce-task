@@ -23,7 +23,7 @@ const SplashScreen = ({ navigation }) => {
                     </View>
                 </View>
                 <View style={styles.wrapText}>
-                    <Text style={styles.TextTile}>Payments anywhere and anytime easily</Text>
+                    <Text style={styles.TextTile}>Shop online with ease - Payments, anywhere and anytime.</Text>
                     <Text style={styles.textDesc}>{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada diam sit amet tincidunt laoreet. Nullam a purus non dolor laoreet aliquet. Fusce eget sagittis dolor. Morbi ullamcorper tellus eu odio condimentum, ut rutrum erat gravida. Nam vel urna vitae diam commodo auctor. Sed id nisi ut nunc condimentum commodo..`}</Text>
                     <View>
                         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('WelcomeScreen')}>
